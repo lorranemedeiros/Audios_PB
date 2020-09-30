@@ -1,0 +1,4 @@
+ContextoTreino,SentenceTreino,Item,Condition,Group,Type
+ContDIST1.wav,DIST1.wav,25,treino1,T,treino
+ContDIST30.wav,DIST30.wav,54,treino2,T,treino
+ContDIST40.wav,DIST40.wav,64,treino3,T,treino

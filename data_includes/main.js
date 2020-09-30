@@ -7,7 +7,7 @@ defaultText
         .css("font-size","1.2em")
         .print()
         ,
-      newText("Você foi convidado a participar de uma pesquisa sobre como as pessoas produzem sentenças. Este estudo está sendo conduzido pelo LAPEX -<br> Laboratório de Psicolinguística Experimental, da UFRJ. </p><p>Você é apto a participar deste experimento porque você é maior de 18 anos, é falante nativo de Português do Brasil(você adquiriu o Português <br> do Brasil durante a infância, <br>tendo o Português do Brasil como sua primeira língua)sendo fluente no idioma. </b></p><p> Qualquer informação que você forneça neste experimento será anônima e mantida em sigilo. Você pode desistir de participar do estudo<br> a qualquer momento sem penalização.No entanto , é importante que você faça o experimento até o final para obtençãos das suas horas<br> complementares (AACC). Ao decidir começar o teste, certifique-se que Tem boa conexão com a internet e que você está disponível para<br> completar o estudo de uma só vez.</p><p> Se você tiver alguma dúvida sobre esta pesquisa ou se você deseja receber os resultados deste estudo quando estiver finalizado, por favor,<br> entre em contato com a doutoranda Lorrane Medeiros, através do e-mail lorranesnm@hotmail.com</p><p><b> Este teste dura aproximadamente 15 minutos.</p><p> Clicando em EU CONCORDO, você concorda que é maior de idade, que é falante nativo de Português do Brasil, que você é fluente em Português do Brasil e que você entendeu estas instruções e condições de participação.</p>")
+      newText("Você foi convidado a participar de uma pesquisa sobre como as pessoas produzem sentenças. Este estudo está sendo conduzido pelo LAPEX -<br> Laboratório de Psicolinguística Experimental, da UFRJ. </p><p>Você é apto a participar deste experimento porque você é maior de 18 anos, é falante nativo de Português do Brasil(você adquiriu o Português <br> do Brasil durante a infância, tendo o Português do Brasil como sua primeira língua)sendo fluente no idioma. </b></p><p> Qualquer informação que você forneça neste experimento será anônima e mantida em sigilo. Você pode desistir de participar do estudo<br> a qualquer momento sem penalização.No entanto , é importante que você faça o experimento até o final para obtençãos das suas horas<br> complementares (AACC). Ao decidir começar o teste, certifique-se que Tem boa conexão com a internet e que você está disponível para<br> completar o estudo de uma só vez.</p><p> Se você tiver alguma dúvida sobre esta pesquisa ou se você deseja receber os resultados deste estudo quando estiver finalizado, por favor,<br> entre em contato com a doutoranda Lorrane Medeiros, através do e-mail lorranesnm@hotmail.com</p><p><b> Este teste dura aproximadamente 15 minutos.</p><p> Clicando em EU CONCORDO, você concorda que é maior de idade, que é falante nativo de Português do Brasil, que você é fluente em Português<br> do Brasil e que você entendeu estas instruções e condições de participação.</p>")
     .print()
         ,
     newButton("EU CONCORDO")
@@ -27,7 +27,7 @@ newTrial("inicial",
         ,
     newText("<p>Bem-vindo!</p>")
     ,
-    newText("<p>Neste experimento, você ouvirá algumas frases e julgará o quão boas/aceitáveis elas são usando uma escala de 5 pontos.</p>")
+    newText("<p>Neste experimento, você ouvirá algumas frases e julgará o quão boas/aceitáveis elas são, usando uma escala de 5 pontos.</p>")
     ,
     
     newText("<p>Por favor, preencha o seu NOME completo abaixo:</p>")
@@ -92,9 +92,9 @@ newTrial("inicial",
         .global()
         .set( getTextInput("Idade") )
         ,
-    newVar("curso")
+    newVar("curso_periodo")
         .global()
-        .set( getTextInput("curso_periodoo") )
+        .set( getTextInput("curso_periodo") )
         
         )
         
@@ -121,10 +121,10 @@ newTrial("instr.treino",
          .center()
          .bold()
     ,
-    newText("<p>Passo 1: Você ouvirá uma frase. Essa é frase-contexto. Assim que o áudio terminar, clique no botão PRÓXIMO.</p>")
+    newText("<p>Passo 1: Você ouvirá uma frase. Essa é a frase-contexto. Assim que o áudio terminar, clique no botão PRÓXIMO.</p>")
          .left()
     ,
-    newText("<p>Passo 2: Você ouvirá uma segunda frase. Essa frase está relacionada com a frase-contexto(áudio anterior). Depois de ouvir essa frases,<br> clique no botão PRÓXIMO para julgar esta frase de acordo com uma escala de 5 pontos.</p>")
+    newText("<p>Passo 2: Você ouvirá uma segunda frase. Essa frase está relacionada com a frase-contexto(áudio anterior). Depois de ouvir essa frase,clique no botão<br> PRÓXIMO para julgar esta frase de acordo com uma escala de 5 pontos.</p>")
     .left()
          ,
          newText("PRESTE ATENÇÃO!! Você julgará a segunda frase, não a primeira.</p>")
@@ -138,13 +138,13 @@ newTrial("instr.treino",
     .print()
     .center()
     ,
-    newText("<p>Então, você vai clicar na melhor opção pra você!(Se você estiver usando um laptop ou desktop, você pode apertar as teclas de 1 a 5 para escolher a sua resposta</p>")
+    newText("<p>Então, você vai clicar na melhor opção pra você!(Se você estiver usando um laptop ou desktop, você pode apertar as teclas de 1 a 5 para escolher a sua resposta.</p>")
          .center()
     ,
     newText("<p>Se possível, use fones de ouvido durante a tarefa.</p>")
          .left()
     ,
-    newText("<p>Aperte COMEÇAR para fazer uma prática.</p>")
+    newText("<p>Aperte COMEÇAR para fazer um treino.</p>")
          .left()
     ,
     //Cria um novo bot�o nomeado "Iniciar" e envia para o arquivo "results" a informa��o de quando ele � pressionado

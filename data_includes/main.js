@@ -219,36 +219,37 @@ Template("treino.csv",variable=>
         .center()
         
     ,
-    newText("Altamente Inaceitável")
+    
+    newText("Strongly Unacceptable")
     .css("font-size","1.4em")
         
     ,
-    newText("Inaceitável")
+    newText("Unacceptable")
     .css("font-size","1.4em")
         
 ,
-   newText("Neutro")
+   newText("Neutral")
         .css("font-size","1.4em")
 ,
-    newText("Aceitável")
+    newText("Acceptable")
     .css("font-size","1.4em")
         
 ,
-     newText("Altamente aceitável")
+     newText("Strongly Acceptable")
      .css("font-size","1.4em")
         
 
 ,
 newCanvas( 1400 , 700 )
-            .add(   250 , 0 , getText("Altamente Inaceitável") )
-            .add( 500 , 0 , getText("Inaceitável") )
-            .add(   680 , 0 , getText("Neutro") )
-            .add( 830 , 0 , getText("Aceitável") )
-            .add(   990 , 0 , getText("Altamente aceitável") )
+            .add(   250 , 0 , getText("Strongly Unacceptable") )
+            .add( 500 , 0 , getText("Unacceptable") )
+            .add(   680 , 0 , getText("Neutral") )
+            .add( 830 , 0 , getText("Acceptable") )
+            .add(   990 , 0 , getText("Strongly Acceptable") )
             .print()
             ,
         newSelector()
-            .add( getText("Altamente inaceitável"), getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
+            .add( getText("Strongly Unacceptable") , getText("Unacceptable"), getText("Neutral"), getText("Acceptable"), getText("Strongly Acceptable") )
             .keys("1","2","3","4","5")
             .log()
             .wait()
@@ -257,6 +258,7 @@ newCanvas( 1400 , 700 )
     .log("Condition", variable.Condition)
     .log("Group", variable.Group) 
     .log("Type", variable.Type)
+
 )
 //Nova Tela - Tela de instruções do experimento
 newTrial("instr.exp",

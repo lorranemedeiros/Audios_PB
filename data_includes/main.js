@@ -248,7 +248,7 @@ newCanvas( 1400 , 700 )
             .print()
             ,
         newSelector()
-            .add( getText("Altamente inaceitável") , getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
+            .add( getText("Altamente inaceitável"), getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
             .keys("1","2","3","4","5")
             .log()
             .wait()
@@ -365,7 +365,7 @@ newCanvas( 1400 , 700 )
             .print()
             ,
         newSelector()
-            .add( getText("Altamente inaceitável") , getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
+            .add( getText("Altamente inaceitável"), getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
             .keys("1","2","3","4","5")
             .log()
             .wait()
@@ -387,3 +387,4 @@ newTrial("final",
 //Ajeita a barra de pogresso para que ela fique completa
 .setOption("countsForProgressBar",false);
 //Fim do Script
+

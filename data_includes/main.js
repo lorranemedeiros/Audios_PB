@@ -58,7 +58,7 @@ newTrial("inicial",
         .print()
     ,
 //Cria uma caixa com seletores nomeada "Escolaridade" para que o participante selecione sua escolaridade
-    newDropDown("Escolaridade", "Select your educational level")
+    newDropDown("Escolaridade", "Selecione o seu nível de escolaridade")
         .add("Pós-graduação em andamento","Pós-graduação concluída", "Graduação em andamento", "Graduação concluída")
         .css("font-size","1.2em")
         .print()

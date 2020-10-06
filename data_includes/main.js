@@ -268,7 +268,7 @@ newTrial("instr.exp",
     ,
     newText("<p>A tarefa durará em torno de 15 minutos. Certifique-se que você esteja em um local tranquilo e silencioso, para que você não seja interrompido.</p>")
     ,
-    newText("<p>Clique em COMEÇAR quando você estiver prnto para começar o experimento.</p>")
+    newText("<p>Clique em COMEÇAR quando você estiver pronto para começar o experimento.</p>")
     ,
     newButton("COMEÇAR")
         .css("font-size","1.2em")

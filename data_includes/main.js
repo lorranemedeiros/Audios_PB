@@ -260,6 +260,7 @@ newCanvas( 1400 , 700 )
     .log("Type", variable.Type)
 
 )
+;
 //Nova Tela - Tela de instruções do experimento
 newTrial("instr.exp",
     defaultText
@@ -279,6 +280,7 @@ newTrial("instr.exp",
         .log()
         .wait()
     )
+    ;
 Template("tabela.csv", variable=>    
     newTrial("experimento",
         newAudio("contexto.exp", variable.AudioContext)
@@ -378,6 +380,7 @@ newCanvas( 1400 , 700 )
     .log("Group", variable.Group) 
     .log("Type", variable.Type)
     )
+    ;
     
 //Nova Tela - Tela final    
 newTrial("final",

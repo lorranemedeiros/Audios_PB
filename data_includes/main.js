@@ -335,15 +335,3 @@ newTrial("final",
 //Ajeita a barra de pogresso para que ela fique completa
 .setOption("countsForProgressBar",false);
 //Fim do Script
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

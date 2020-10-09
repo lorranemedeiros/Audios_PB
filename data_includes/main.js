@@ -220,36 +220,36 @@ Template("treino.csv",variable=>
         
     ,
     
-    newText("Strongly Unacceptable")
+    newText("Altamente Inaceitável")
     .css("font-size","1.4em")
         
     ,
-    newText("Unacceptable")
+    newText("Inaceitável")
     .css("font-size","1.4em")
         
 ,
-   newText("Neutral")
+   newText("Neutra")
         .css("font-size","1.4em")
 ,
-    newText("Acceptable")
+    newText("Aceitável")
     .css("font-size","1.4em")
         
 ,
-     newText("Strongly Acceptable")
+     newText("Altamente Aceitável")
      .css("font-size","1.4em")
         
 
 ,
 newCanvas( 1400 , 700 )
-            .add(   250 , 0 , getText("Strongly Unacceptable") )
-            .add( 500 , 0 , getText("Unacceptable") )
-            .add(   680 , 0 , getText("Neutral") )
-            .add( 830 , 0 , getText("Acceptable") )
-            .add(   990 , 0 , getText("Strongly Acceptable") )
+            .add(   250 , 0 , getText("Altamente Inaceitável") )
+            .add( 500 , 0 , getText("Inaceitável") )
+            .add(   680 , 0 , getText("Neutra") )
+            .add( 830 , 0 , getText("Aceitável") )
+            .add(   990 , 0 , getText("Altamente aceitável") )
             .print()
             ,
         newSelector()
-            .add( getText("Strongly Unacceptable") , getText("Unacceptable"), getText("Neutral"), getText("Acceptable"), getText("Strongly Acceptable") )
+            .add( getText("Altamente Inaceitável") , getText("Inaceitável"), getText("Neutra"), getText("Aceitável"), getText("Altamente Aceitável") )
             .keys("1","2","3","4","5")
             .log()
             .wait()
@@ -346,14 +346,14 @@ Template("tabela.csv", variable=>
     .css("font-size","1.4em")
         
 ,
-   newText("Neutro")
+   newText("Neutra")
         .css("font-size","1.4em")
 ,
     newText("Aceitável")
     .css("font-size","1.4em")
         
 ,
-     newText("Altamente aceitável")
+     newText("Altamente Aceitável")
      .css("font-size","1.4em")
         
 
@@ -361,13 +361,13 @@ Template("tabela.csv", variable=>
 newCanvas( 1400 , 700 )
             .add(   250 , 0 , getText("Altamente Inaceitável") )
             .add( 500 , 0 , getText("Inaceitável") )
-            .add(   680 , 0 , getText("Neutro") )
+            .add(   680 , 0 , getText("Neutra") )
             .add( 830 , 0 , getText("Aceitável") )
-            .add(   990 , 0 , getText("Altamente aceitável") )
+            .add(   990 , 0 , getText("Altamente Aceitável") )
             .print()
             ,
         newSelector()
-            .add( getText("Altamente inaceitável"), getText("Inaceitável"), getText("Neutro"), getText("Aceitável"), getText("Altamente aceitável") )
+            .add( getText("Altamente Inaceitável"), getText("Inaceitável"), getText("Neutra"), getText("Aceitável"), getText("Altamente Aceitável") )
             .keys("1","2","3","4","5")
             .log()
             .wait()
@@ -389,4 +389,3 @@ newTrial("final",
 //Ajeita a barra de pogresso para que ela fique completa
 .setOption("countsForProgressBar",false);
 //Fim do Script
-

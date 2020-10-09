@@ -290,7 +290,7 @@ Template("tabela.csv", variable=>
             .center()
        ,
        
-        newButton("Next")
+        newButton("Próximo")
             .css("font-size","1.2em")
             .print()
             .center()
@@ -316,7 +316,7 @@ Template("tabela.csv", variable=>
            
         ,
         
-        newButton("Next")
+        newButton("Próximo")
             .css("font-size","1.2em")
             .print()
             .center()

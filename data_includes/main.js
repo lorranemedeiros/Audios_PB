@@ -167,11 +167,11 @@ Template("treino.csv",variable=>
         .center()
         
     ,
-    newText("Strongly Unacceptable")
+    newText("Altamente inaceitável")
     .css("font-size","1.4em")
         
     ,
-    newText("Unacceptable")
+    newText("Inaceitável")
     .css("font-size","1.4em")
         
 ,
@@ -188,15 +188,15 @@ Template("treino.csv",variable=>
 
 ,
 newCanvas( 1400 , 700 )
-            .add(   250 , 0 , getText("Strongly Unacceptable") )
-            .add( 500 , 0 , getText("Unacceptable") )
+            .add(   250 , 0 , getText("Altamente Inaceitável") )
+            .add( 500 , 0 , getText("Inaceitável") )
             .add(   680 , 0 , getText("Neutral") )
             .add( 830 , 0 , getText("Acceptable") )
             .add(   990 , 0 , getText("Strongly Acceptable") )
             .print()
             ,
         newSelector()
-            .add( getText("Strongly Unacceptable") , getText("Unacceptable"), getText("Neutral"), getText("Acceptable"), getText("Strongly Acceptable") )
+            .add( getText("Altamente inaceitável") , getText("Inaceitável"), getText("Neutral"), getText("Acceptable"), getText("Strongly Acceptable") )
             .keys("1","2","3","4","5")
             .log()
             .wait()

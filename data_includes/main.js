@@ -245,7 +245,7 @@ newCanvas( 1400 , 700 )
             .add( 500 , 0 , getText("Inaceitável") )
             .add(   680 , 0 , getText("Neutra") )
             .add( 830 , 0 , getText("Aceitável") )
-            .add(   990 , 0 , getText("Altamente aceitável") )
+            .add(   990 , 0 , getText("Altamente Aceitável") )
             .print()
             ,
         newSelector()
